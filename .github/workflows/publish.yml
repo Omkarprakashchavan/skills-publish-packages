@@ -17,8 +17,8 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/omkarprakashchavan/publish-packages/game
-          tags: type=${{ github.sha }}
+          images: ghcr.io/Omkarprakashchavan/publish-packages/game
+          tags: type='123456789plkmnoijhb'
       - name: Login to GHCR
         uses: docker/login-action@v3
         with:
